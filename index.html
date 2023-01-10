@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class = 'wrapper'>
+            <div class = "upload">
+                <div class = "upload-wrapper">
+                    <div class = "upload-img">
+                        <!-- image here -->
+                    </div>
+                    <div class = "upload-info">
+                        <p>
+                            <span class = "upload-info-value">0</span> file(s) uploaded.
+                        </p>
+                    </div>
+                    <div class = "upload-area">
+                        <div class = "upload-area-img">
+                            <img src = "assets/upload.png" alt = "">
+                        </div>
+                        <p class = "upload-area-text">Select images or <span>browse</span>.</p>
+                    </div>
+                    <input type = "file" class = "visually-hidden" id = "upload-input" multiple>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+        <script src = "script.js"></script>
+    </body>
+</html>
